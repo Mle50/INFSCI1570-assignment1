@@ -1,0 +1,119 @@
+/*Body/Header across files*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/*Navigation Bar*/
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: #444;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #666;
+}
+
+nav ul li a:visited {
+    color: #ddd;
+}
+
+/*Buttons*/
+button {
+    color: rgb(55, 106, 132);
+    border: none;
+    padding: 10px 16px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+/*When buttons are hovered over*/
+button:hover {
+  background-color: #65aff0;
+}
+
+/*Images*/
+img.center-img {
+    display: block;
+    margin: 20px auto;
+    max-width: 80%;
+    height: auto;
+}
+
+/*Making sure the paragraphs/text are formatted*/
+section {
+    padding: 20px;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/*Giving some space in between table*/
+td {
+    padding: 10px;
+}
+
+/*Footer!!*/
+footer {
+    text-align: center;
+    background-color: #eee;
+    color: #555;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/*Classes*/
+.intro-text {
+    padding: 20px;
+}
+
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/*Dark Mode*/
+body.inverted {
+  background-color: #111;
+  color: #eee;
+}
+
+body.inverted header {
+  background-color: #222;
+}
+
+body.inverted nav ul {
+  background-color: #333;
+}
+
+body.inverted footer {
+  background-color: #333;
+}
